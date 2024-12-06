@@ -44,7 +44,6 @@ def solve(filename: str) -> int:
         active.append(line)
     
     rulesets = defaultdict(set)
-
     for rule in rules:
         a, b = map(int, rule.split('|'))
         rulesets[a].add(b)
