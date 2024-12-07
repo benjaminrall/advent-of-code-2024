@@ -1,2 +1,2 @@
 from pyaoc import create_day
-create_day(5, 2024)
+create_day(7, 2024)
