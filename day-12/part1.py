@@ -38,7 +38,6 @@ def solve(filename: str) -> int:
     # --- SOLUTION CODE ---
     with open(filename) as f:
         lines = [[c for c in line.strip()] for line in f.readlines()]
-    print(lines)
     shape = (len(lines), len(lines[0]))
 
     visited = set()
@@ -50,8 +49,7 @@ def solve(filename: str) -> int:
             region = set()
             dfs(visited, region, lines, lines[row][col], row, col, shape)
             regions.append(region)
-    # print(regions)
-    # print(len(regions))
+
     total = 0
     for region in regions:
         area = len(region)
