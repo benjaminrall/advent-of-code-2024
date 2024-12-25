@@ -163,20 +163,10 @@ DIRS = {1j: '<', -1j: '>', 1: '^', -1: 'v', 2j: '<<', -2j: '>>', 2: '^^', -2: 'v
 def path(start, target):
     d = dijkstra(start, target)
     return d
-    # p = target
-    # out = ''
-    # while p is not None:
-    #     pn = prec[p]
-    #     if pn is None:
-    #         break
-    #     out += DIRS[pn - p]
-    #     p = pn
-    # return ''.join(reversed([c for c in out]))
 
 def process(code):
     start = (NUMPAD['A'], DIRPAD['A'], DIRPAD['A'], False)
     paths = []
-    print(code)
     for c in code:
         target = (NUMPAD[c], DIRPAD['A'], DIRPAD['A'], True)
         paths.append(path(start, target))

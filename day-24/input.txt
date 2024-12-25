@@ -1,0 +1,313 @@
+x00: 1
+x01: 1
+x02: 0
+x03: 0
+x04: 0
+x05: 1
+x06: 0
+x07: 1
+x08: 1
+x09: 0
+x10: 1
+x11: 0
+x12: 0
+x13: 1
+x14: 0
+x15: 1
+x16: 1
+x17: 0
+x18: 0
+x19: 0
+x20: 0
+x21: 1
+x22: 0
+x23: 0
+x24: 1
+x25: 0
+x26: 0
+x27: 0
+x28: 1
+x29: 0
+x30: 0
+x31: 1
+x32: 1
+x33: 0
+x34: 1
+x35: 0
+x36: 1
+x37: 0
+x38: 1
+x39: 0
+x40: 1
+x41: 1
+x42: 1
+x43: 0
+x44: 1
+y00: 1
+y01: 0
+y02: 1
+y03: 1
+y04: 0
+y05: 0
+y06: 1
+y07: 1
+y08: 0
+y09: 1
+y10: 1
+y11: 1
+y12: 1
+y13: 1
+y14: 0
+y15: 1
+y16: 0
+y17: 0
+y18: 1
+y19: 1
+y20: 0
+y21: 1
+y22: 0
+y23: 1
+y24: 0
+y25: 1
+y26: 0
+y27: 1
+y28: 1
+y29: 0
+y30: 0
+y31: 1
+y32: 0
+y33: 0
+y34: 0
+y35: 1
+y36: 0
+y37: 1
+y38: 0
+y39: 1
+y40: 0
+y41: 0
+y42: 1
+y43: 0
+y44: 1
+
+x00 XOR y00 -> z00
+x00 AND y00 -> c00
+x01 XOR y01 -> s01
+s01 XOR c00 -> z01
+s01 AND c00 -> ksr
+x01 AND y01 -> svq
+ksr OR svq -> c01
+x02 XOR y02 -> s02
+s02 XOR c01 -> z02
+s02 AND c01 -> kbb
+x02 AND y02 -> nps
+nps OR kbb -> c02
+x03 XOR y03 -> s03
+s03 XOR c02 -> z03
+s03 AND c02 -> dkr
+x03 AND y03 -> gmf
+gmf OR dkr -> c03
+x04 XOR y04 -> s04
+s04 XOR c03 -> z04
+s04 AND c03 -> qqg
+x04 AND y04 -> cjq
+cjq OR qqg -> c04
+x05 XOR y05 -> s05
+s05 XOR c04 -> z05
+s05 AND c04 -> hqv
+x05 AND y05 -> hqr
+hqr OR hqv -> c05
+x06 XOR y06 -> s06
+s06 XOR c05 -> z06
+s06 AND c05 -> ckw
+x06 AND y06 -> std
+ckw OR std -> c06
+x07 XOR y07 -> s07
+s07 XOR c06 -> z07
+s07 AND c06 -> nvr
+x07 AND y07 -> pkw
+nvr OR pkw -> c07
+x08 XOR y08 -> s08
+s08 XOR c07 -> z08
+s08 AND c07 -> ngt
+x08 AND y08 -> wgh
+wgh OR ngt -> c08
+x09 XOR y09 -> s09
+s09 XOR c08 -> z09
+s09 AND c08 -> hnw
+x09 AND y09 -> dmb
+dmb OR hnw -> c09
+x10 XOR y10 -> s10
+c09 XOR s10 -> z10
+s10 AND c09 -> nkv
+x10 AND y10 -> rwq
+nkv OR rwq -> c10
+x11 XOR y11 -> s11
+c10 XOR s11 -> z11
+s11 AND c10 -> kbk
+x11 AND y11 -> qps
+kbk OR qps -> c11
+x12 XOR y12 -> s12
+s12 XOR c11 -> z12
+c11 AND s12 -> hks
+x12 AND y12 -> vwc
+hks OR vwc -> c12
+x13 XOR y13 -> s13
+c12 XOR s13 -> z13
+c12 AND s13 -> qnb
+x13 AND y13 -> wfg
+qnb OR wfg -> c13
+x14 XOR y14 -> s14
+s14 XOR c13 -> z14
+s14 AND c13 -> dqg
+x14 AND y14 -> gnc
+dqg OR gnc -> c14
+x15 XOR y15 -> s15
+c14 XOR s15 -> c15
+s15 AND c14 -> dnn
+x15 AND y15 -> mrm
+dnn OR mrm -> z15
+x16 XOR y16 -> s16
+s16 XOR c15 -> z16
+s16 AND c15 -> srr
+x16 AND y16 -> mmn
+srr OR mmn -> c16
+x17 XOR y17 -> s17
+s17 XOR c16 -> z17
+c16 AND s17 -> swr
+x17 AND y17 -> wtp
+swr OR wtp -> c17
+x18 XOR y18 -> s18
+c17 XOR s18 -> z18
+c17 AND s18 -> vrq
+x18 AND y18 -> nbt
+nbt OR vrq -> c18
+x19 XOR y19 -> s19
+c18 XOR s19 -> z19
+c18 AND s19 -> mjm
+x19 AND y19 -> vct
+mjm OR vct -> c19
+x20 XOR y20 -> s20
+c19 XOR s20 -> cqr
+c19 AND s20 -> fkg
+x20 AND y20 -> z20
+fkg OR cqr -> c20
+x21 XOR y21 -> s21
+c20 XOR s21 -> z21
+c20 AND s21 -> fdb
+x21 AND y21 -> bfk
+fdb OR bfk -> c21
+x22 XOR y22 -> s22
+c21 XOR s22 -> z22
+s22 AND c21 -> tsp
+x22 AND y22 -> sgc
+tsp OR sgc -> c22
+x23 XOR y23 -> s23
+c22 XOR s23 -> z23
+s23 AND c22 -> rvc
+y23 AND x23 -> qbm
+rvc OR qbm -> c23
+x24 XOR y24 -> s24
+s24 XOR c23 -> z24
+s24 AND c23 -> fgn
+x24 AND y24 -> cmf
+fgn OR cmf -> c24
+x25 XOR y25 -> s25
+s25 XOR c24 -> z25
+c24 AND s25 -> cnd
+x25 AND y25 -> fhr
+cnd OR fhr -> c25
+x26 XOR y26 -> s26
+c25 XOR s26 -> z26
+s26 AND c25 -> mmj
+x26 AND y26 -> nsh
+mmj OR nsh -> c26
+x27 XOR y27 -> s27
+c26 XOR nfj -> z27
+nfj AND c26 -> hrn
+x27 AND y27 -> nfj
+s27 OR hrn -> c27
+x28 XOR y28 -> s28
+c27 XOR s28 -> z28
+c27 AND s28 -> kmn
+x28 AND y28 -> wvn
+kmn OR wvn -> c28
+x29 XOR y29 -> s29
+s29 XOR c28 -> z29
+c28 AND s29 -> mnm
+x29 AND y29 -> gsb
+mnm OR gsb -> c29
+x30 XOR y30 -> s30
+c29 XOR s30 -> z30
+c29 AND s30 -> jpg
+x30 AND y30 -> bsd
+jpg OR bsd -> c30
+x31 XOR y31 -> s31
+c30 XOR s31 -> z31
+c30 AND s31 -> rrf
+x31 AND y31 -> hrb
+hrb OR rrf -> c31
+x32 XOR y32 -> s32
+c31 XOR s32 -> z32
+s32 AND c31 -> npv
+x32 AND y32 -> qhn
+npv OR qhn -> c32
+x33 XOR y33 -> s33
+c32 XOR s33 -> z33
+s33 AND c32 -> wfq
+x33 AND y33 -> jgt
+jgt OR wfq -> c33
+x34 XOR y34 -> s34
+s34 XOR c33 -> z34
+s34 AND c33 -> bjg
+x34 AND y34 -> bbq
+bjg OR bbq -> c34
+x35 XOR y35 -> s35
+s35 XOR c34 -> z35
+c34 AND s35 -> fgq
+x35 AND y35 -> dmv
+dmv OR fgq -> c35
+x36 XOR y36 -> s36
+c35 XOR s36 -> z36
+c35 AND s36 -> dvm
+x36 AND y36 -> crj
+crj OR dvm -> c36
+x37 XOR y37 -> s37
+c36 XOR s37 -> vkg
+s37 AND c36 -> z37
+x37 AND y37 -> jbg
+vkg OR jbg -> bvv
+x38 XOR y38 -> hbt
+x38 AND y38 -> qwb
+x39 XOR y39 -> jrr
+x39 AND y39 -> fbk
+x40 XOR y40 -> htn
+x40 AND y40 -> dwr
+x41 XOR y41 -> dgv
+x41 AND y41 -> kfb
+x42 XOR y42 -> vdp
+x42 AND y42 -> qfb
+x43 XOR y43 -> qkc
+x43 AND y43 -> mqp
+x44 XOR y44 -> spg
+x44 AND y44 -> rvs
+hbt XOR bvv -> z38
+gfb XOR jrr -> z39
+gpw XOR htn -> z40
+ctj XOR dgv -> z41
+vdp XOR vkh -> z42
+tfg XOR qkc -> z43
+mqb XOR spg -> z44
+bfj OR rvs -> z45
+bvv AND hbt -> pgg
+mqb AND spg -> bfj
+gfb AND jrr -> bps
+vdp AND vkh -> qdq
+qwb OR pgg -> gfb
+dwr OR ngw -> ctj
+kgn OR kfb -> vkh
+qdq OR qfb -> tfg
+gpw AND htn -> ngw
+vgf OR mqp -> mqb
+tfg AND qkc -> vgf
+bps OR fbk -> gpw
+ctj AND dgv -> kgn
